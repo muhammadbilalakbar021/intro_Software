@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bilal.banking_management">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Accounts"
+            android:label="Accounts" />
+        <activity
+            android:name=".Apply"
+            android:label="Apply" />
+        <activity
+            android:name=".Contact"
+            android:label="Contact" />
+        <activity
+            android:name=".Insurance"
+            android:label="Insurance" />
+        <activity
+            android:name=".Loan"
+            android:label="Loan" />
+        <activity
+            android:name=".Log_out"
+            android:label="Log out" />
+        <activity
+            android:name=".Pay"
+            android:label="Pay" />
+        <activity
+            android:name=".Privacy_Policy"
+            android:label="Privacy Policy" />
+        <activity
+            android:name=".Promotions"
+            android:label="Promotions" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings" />
+        <activity
+            android:name=".Services"
+            android:label="Services" />
+        <activity
+            android:name=".Transfer"
+            android:label="Transfer" />
+        <activity
+            android:name=".Investment"
+            android:label="Investment" />
+    </application>
+
+</manifest>

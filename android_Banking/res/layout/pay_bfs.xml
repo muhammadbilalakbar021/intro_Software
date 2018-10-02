@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="BFS Mobile"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="84dp"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Credit Card Payment"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="70dp"
+                android:drawableBottom="#000"/>
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Braodband bill payment"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="70dp"
+                android:drawableBottom="#000"   />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_my"
+                android:text="Corporate payment"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="70dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:background="@drawable/button_my"
+                android:layout_height="wrap_content"
+                android:text="Eduaction"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_my"
+                android:text="Electricty Bill Payment"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:background="@drawable/button_my"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exise/Taxation"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gas Bill Payment"
+                tools:layout_editor_absoluteX="25dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="259dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Landline Bill Payment"
+                tools:layout_editor_absoluteX="136dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="299dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loan Repayment "
+                tools:layout_editor_absoluteX="16dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="339dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Bill  Payment"
+                tools:layout_editor_absoluteX="128dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Topup"
+                tools:layout_editor_absoluteX="236dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="413dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Online Shopping"
+                tools:layout_editor_absoluteX="40dp"
+                android:background="@drawable/button_my"
+                tools:layout_editor_absoluteY="461dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_my"
+                android:text="Prepaid Topup" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_my"
+                android:text="Water Bill Payment" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

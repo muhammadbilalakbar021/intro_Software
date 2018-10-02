@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bfs_Home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/bfs_Accounts"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/bfs_Pay"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pay" />
+        <item
+            android:id="@+id/bfs_Transfer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transfer" />
+        <item
+            android:id="@+id/bfs_Apply"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Apply" />
+
+        <item
+            android:id="@+id/bfs_Services"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Services" />
+        <item
+            android:id="@+id/bfs_Loan"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Loan" />
+        <item
+            android:id="@+id/bfs_Insurance"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Insurance" />
+        <item
+            android:id="@+id/bfs_Investments"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Investments" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/bfs_privacy"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/bfs_promotion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Promotions" />
+        </menu>
+    </item>
+
+</menu>

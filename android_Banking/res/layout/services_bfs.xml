@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Our Services"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView13"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Islamic"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Spinner
+                    android:layout_marginTop="40px"
+                    android:layout_marginLeft="20px"
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="157dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_marginTop="40px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Go"/>
+            </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Non Islamic"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="84dp"
+        android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Spinner
+                    android:layout_marginTop="40px"
+                    android:layout_marginLeft="20px"
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="157dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_marginTop="40px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Go"/>
+            </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Profit/Loan"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Spinner
+                    android:layout_marginTop="40px"
+                    android:layout_marginLeft="20px"
+                    android:id="@+id/spinner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="157dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_marginTop="40px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Go"/>
+            </LinearLayout>
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Non Profit"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Spinner
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="157dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_marginTop="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Go"/>
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

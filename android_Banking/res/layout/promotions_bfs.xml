@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:layout_editor_absoluteY="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Promotions"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="154dp"
+            android:layout_height="148dp"
+            android:src="@drawable/promo"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:background="#3ED715"
+            android:text="Avail Offer"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="154dp"
+            android:layout_height="148dp"
+            android:src="@drawable/promo"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button1"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:background="#3ED715"
+            android:text="Avail Offer"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </View>
+
+</LinearLayout>
